@@ -1,38 +1,24 @@
 {
-<<<<<<< HEAD
   "name": "express-basics",
-=======
-  "name": "treehouse-express-basics",
->>>>>>> yourFirstExpressApp
   "version": "1.0.0",
-  "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
+  "description": "This repo features an express app to serve as demo in the Express Basics.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "git+https://github.com/hdngr/treehouse-express-basics.git"
+    "url": "https://github.com/digitalscraps/express-blog"
   },
   "author": "Alli",
-=======
-    "url": "https://github.com/hdngr/treehouse-express-basics.git"
-  },
-  "author": "",
->>>>>>> yourFirstExpressApp
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hdngr/treehouse-express-basics/issues"
+  "url": "https://github.com/digitalscraps/express-blog",
+  "bug": {
+    "url": "https://github.com/digitalscraps/express-blog"
   },
-<<<<<<< HEAD
-  "homepage": "https://github.com/hdngr/treehouse-express-basics#readme",
+  "homepage": "https://github.com/digitalscraps/express-blog",
   "dependencies": {
-    "express": "^4.15.2"
-=======
-  "homepage": "https://github.com/hdngr/treehouse-express-basics",
-  "dependencies": {
-    "express": "^4.13.0"
->>>>>>> yourFirstExpressApp
+    "express": "^4.15.2",
+    "nunjucks": "^3.0.0"
   }
 }
