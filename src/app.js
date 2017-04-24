@@ -5,11 +5,12 @@ var express = require('express'),
     posts = require('./mock/posts.json');
 
 var app = express();
-
+app.set ('view engine', 'pug');
+app.set ('views', __dirname + '/views')
 debugger;
 
 app.get('/', function(req, res) {
-    res.send("<h1>I am Bork</h1>")
+    res.render('index')
 })
 app.get('/blog/:title?', function(req, res){
     debugger;
@@ -20,8 +21,9 @@ app.get('/blog/:title?', function(req, res){
         // render construction text for user
         res.send("This page is coming together")
     } else {
-        var post = posts[title];
-        res.send(post);
+        // find by post title or leave empty
+        var post = posts[title] || {};
+        res.render('post', { post: post});
     }
 });
 app.listen(3000, function() {

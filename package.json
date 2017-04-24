@@ -19,6 +19,6 @@
   "homepage": "https://github.com/digitalscraps/express-blog",
   "dependencies": {
     "express": "^4.15.2",
-    "nunjucks": "^3.0.0"
+    "pug": "^2.0.0-beta.12"
   }
 }
