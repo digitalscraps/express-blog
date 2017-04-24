@@ -1,9 +1,7 @@
 extends ./layout.pug
-
 block content
     section.post
-      .container.text-right
-        a(href="").text-faded view all
+      .container
         .row
           .col-lg-8.col-lg-offset-2.text-center
             h2.section-heading #{post.title}
@@ -12,4 +10,5 @@ block content
             
             p.text-faded
               | #{post.description}
+            .article
               | #{post.description}
